@@ -9,10 +9,11 @@ body {
   background-color: bisque;
 }
 
-#first-box, #list-box {
+#first-box {
   display: flex;
   justify-self: center;
 }
+
 
 #input {
   border-radius: 5px;
