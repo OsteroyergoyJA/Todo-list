@@ -19,6 +19,10 @@ body {
   border-radius: 5px;
 }
 
+#list-box {
+  display: flex;
+justify-content: center;
+}
 
 li {
   display: flex;
