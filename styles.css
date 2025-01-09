@@ -4,8 +4,32 @@
 
 body {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: bisque;
 }
 
+#first-box, #list-box {
+  display: flex;
+  justify-self: center;
+}
+
+#input {
+  border-radius: 5px;
+}
+
+
+li {
+  display: flex;
+  flex-direction: row;
+justify-content: space-between;
+  list-style-type: none;
+  background-color: blueviolet;
+  border-radius: 5px;
+  margin: 15px;
+}
+
+button {
+  margin-left: 5px;
+}
 
