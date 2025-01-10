@@ -22,6 +22,7 @@ function addTodo(item, isCompleted = false) {
   }
 
   const removeButton = document.createElement('button');
+  removeButton.id = 'removeButton';
   removeButton.textContent = 'Remove';
   removeButton.onclick = function () {
     todoList.removeChild(list);
