@@ -11,7 +11,7 @@ body {
 
 #first-box {
   display: flex;
-  justify-self: center;
+  justify-content: center;
 }
 
 
@@ -29,7 +29,7 @@ li {
   flex-direction: row;
 justify-content: space-between;
   list-style-type: none;
-  background-color: blueviolet;
+  background-color: rgb(183, 157, 118);
   border-radius: 5px;
   margin: 15px;
 }
